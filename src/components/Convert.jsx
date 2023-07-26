@@ -35,6 +35,7 @@ const Convert = () => {
 return (
   <div className='inp'>
     <div className='nn'>
+      <marquee behavior="" direction="">Convert your dollar to naira</marquee>
       <input type="number" value={dollar} onChange={e => setDollar(e.target.value)} />
       <button onClick={handleChange}>Convert</button>
       <p>Naira : {naira}</p>
