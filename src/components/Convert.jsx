@@ -37,7 +37,7 @@ return (
     <div className='nn'>
       <input type="number" value={dollar} onChange={e => setDollar(e.target.value)} />
       <button onClick={handleChange}>Convert</button>
-      <p>Naira: {naira}</p>
+      <p>Naira : {naira}</p>
     </div>
   </div>
 );
